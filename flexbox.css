@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
