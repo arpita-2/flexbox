@@ -42,6 +42,29 @@ nav ul {
   background-color: rgb(54, 219, 183);
 }
 
-img {
-  height: 20rem;
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro img {
+  width: 100%;
+}
+
+.intro-img {
+  flex: 1 1 10rem;
+}
+
+.intro-text {
+  flex: 1 1 10rem;
+  background-color: rgb(79, 68, 87);
+  color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text p {
+  padding: 1.5rem;
 }
